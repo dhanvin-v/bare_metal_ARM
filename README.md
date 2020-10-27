@@ -14,7 +14,7 @@ Newlib is an implementation of the standard C library that is specifically desig
 - The idea of Newlib is to implement the hardware-independent parts of the standard C library and rely on few low-level system calls that must be implemented with the target hardware in mind.<br>
 ### To Do
 Do the following:
-[X] Use the GNU make utility to implement all the compiling and linking steps given above. For more information, http://www.gnu.org/software/make/manual/make.html
-[X] The implementation of read system call in syscalls.c polls when the receive FIFO
+- [X] Use the GNU make utility to implement all the compiling and linking steps given above. For more information, http://www.gnu.org/software/make/manual/make.html
+- [X] The implementation of read system call in syscalls.c polls when the receive FIFO
 is empty. Modify the write system call so that it polls when the transmit FIFO is full.
-[X] Write a version of mem alloc.c for x86/Linux. Trace the system calls made using the strace Linux utility. Compare the system call trace obtained to those from executing a static binary (compile with -static flag).
+- [X] Write a version of mem alloc.c for x86/Linux. Trace the system calls made using the strace Linux utility. Compare the system call trace obtained to those from executing a static binary (compile with -static flag).
